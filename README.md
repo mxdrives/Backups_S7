@@ -55,6 +55,22 @@ Este repositório contém configurações de teste para integração de sistemas
   - Setup de rede PROFIBUS
   - Parâmetros para testes de integração
 
+### S7_Pro6
+**Configuração de teste: Entradas Analógicas Mistas (Tensão e Corrente)**
+
+- **Objetivo:** Aquisição de sinais analógicos mistos (tensão e corrente)
+- **CLP:** SIEMENS S7-300 CPU 315-2DP
+- **Módulo:** 6ES7331-7KF02-0AB0 - Módulo de entrada analógica
+- **Protocolo:** PROFIBUS-DP
+- **Sinais de teste aplicados:**
+  - Tensão: 0-10V
+  - Corrente: 0-20mA
+- **Inclui:**
+  - Configuração de entrada analógica
+  - Parâmetros de conversão A/D
+  - Setup de rede PROFIBUS
+  - Suporte para medições simultâneas de tensão e corrente
+
 ## 🔧 Tecnologias
 
 - **Software:** SIMATIC STEP 7 v5.7
@@ -62,7 +78,7 @@ Este repositório contém configurações de teste para integração de sistemas
   - Siemens S7-300 (CPU 315-2DP)
   - Sinamics S120 CU310
   - ET200 (153-2BA02-0XB0)
-  - Módulos 331-1KF01-0AB0 (entrada) e 332-5HF00-0AB0 (saída)
+  - Módulos 331-1KF01-0AB0 (entrada), 332-5HF00-0AB0 (saída) e 6ES7331-7KF02-0AB0 (entrada mista)
 - **Protocolo:** PROFIBUS-DP
 
 ## 🚀 Como Usar
@@ -90,4 +106,4 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para d
 
 ---
 
-*Última atualização: 28 de novembro de 2025*
+*Última atualização: 1º de dezembro de 2025*
