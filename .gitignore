@@ -17,6 +17,9 @@
 !/S7_Pro7/**
 !/S7_Pro8/
 !/S7_Pro8/**
+!/S7_Pro9/
+!/S7_Pro9/**
+
 
 # Keep Git metadata
 !.git/
